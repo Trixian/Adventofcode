@@ -16,7 +16,6 @@ How many measurements from a_file are larger than the previous measurement?
 """
 counter = 0
 decrease_counter = 0
-increase_counter = ('counter', 'decrease_counter')
 #remember, the length of the list is 2000, the last index is 1999
 while counter < len(sweep_list)-1:
 	#if the item is smaller than the next item.
