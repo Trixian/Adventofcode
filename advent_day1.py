@@ -20,8 +20,6 @@ while counter < len(sweep_list)-1:
 	#if the item is smaller than the next item.
     if sweep_list[counter] > sweep_list[counter+1]: 
         print("decrease")
-   # else:
-    #    print("increase")
         if 'decrease':
         	decrease_counter += 1
     counter += 1 #add one to counter and re-assign
