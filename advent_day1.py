@@ -9,8 +9,8 @@ a_file = open('advent_day_one.txt',"r")
 #a_file = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263 ]
 sweep_list = [int(data) for data in a_file]
 
-#the actual code:
 """
+The actual code:
 How many measurements from a_file are larger than the previous measurement?
 """
 counter = 0
