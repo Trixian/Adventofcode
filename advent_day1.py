@@ -1,17 +1,16 @@
+"""
+Find the full description (including download of datasheet) on:
+https://adventofcode.com/2021/day/1
+"""
+
 #Import document and convert to integer
 a_file = open('advent_day_one.txt',"r")
 #test if code works on known data from example:
 #a_file = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263 ]
 sweep_list = [int(data) for data in a_file]
 start_number = sweep_list[0]
-increase = 0
-decrease = 0
 
-#test to see if list works
-print(f"Test output: {sweep_list[0]}")
-print(f"Test output: {sweep_list[1]}")
-
-#the actual coding:
+#the actual code:
 """
 How many measurements from a_file are larger than the previous measurement?
 """
