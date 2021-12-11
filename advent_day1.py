@@ -8,7 +8,6 @@ a_file = open('advent_day_one.txt',"r")
 #test if code works on known data from example:
 #a_file = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263 ]
 sweep_list = [int(data) for data in a_file]
-start_number = sweep_list[0]
 
 #the actual code:
 """
